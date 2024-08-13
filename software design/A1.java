@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class A1 {
     int subjectNum;//学生人数
-    int subjectID=0;
+    int subjectID=0;//ID
     float[] studentScore = new float[1000];
     String[] studentName = new String[1000];
     int[] unsortID = new int[1000];//下标与ID映射
