@@ -21,7 +21,7 @@ public class Block extends JPanel implements ActionListener, KeyListener//应该
     static Label nextLab = new Label("coming:");
     static JFrame jf = new JFrame();
     static MyTimer timer;
-    static ImageIcon icon = new ImageIcon();
+    static ImageIcon icon = new ImageIcon();//icon adress here
     static JMenuBar mb = new JMenuBar();
     static JMenu menuGame = new JMenu("GAME");
     static JMenu menuHelp = new JMenu("HELP");
